@@ -1,0 +1,37 @@
+{
+  "name": "pg-migrate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhomar8531/pg-migrate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/muhomar8531/pg-migrate/issues"
+  },
+  "homepage": "https://github.com/muhomar8531/pg-migrate#readme",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^14.0.3",
+    "dotenv": "^17.3.1",
+    "pg": "^8.20.0",
+    "typescript": "^6.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@types/pg": "^8.20.0",
+    "ts-node": "^10.9.2"
+  },
+  "bin": {
+    "pg-migrate": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
+  }
+}
